@@ -1,8 +1,6 @@
 #/!\ Work in process /!\
 
-#Configurer le provider
-
-**Initialisation :**
+###**Initialisation :**
 - Crée un serveur
 - Ce connecter en ssh
 
@@ -35,7 +33,8 @@ sudo apt-get install -y nodejs
   security:
     authorization: enabled
 
-**Usage**
+###**Usage :**
+
 var ovh = require('kaaalastic-ovh');
 
 ````js
