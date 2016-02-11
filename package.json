@@ -1,6 +1,6 @@
 {
   "name": "kaaalastic-ovh",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "The ovh-provider plug-in for kaaalastic framework",
   "main": "index.js",
   "author": "florian BELLAZOUZ",
