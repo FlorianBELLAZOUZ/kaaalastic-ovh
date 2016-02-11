@@ -34,10 +34,9 @@ sudo apt-get install -y nodejs
     authorization: enabled
 
 ###**Usage :**
-
+````js
 var ovh = require('kaaalastic-ovh');
 
-````js
 var param = {
   appKey: 'qdsffffsqdfqdsf',
   appSecret: 'qsdfsqdfqsdfqsdfdqsfsqdfsqdfqsfdqsdf',
@@ -48,6 +47,6 @@ var param = {
   regions: ['MVT1', 'SBG1'], // default ['SBG1']
   serverType: 'ram-1', // default 'vps-ssd-1';
 }
-````
 
 service.setProvider(ovh, param);
+````
